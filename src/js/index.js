@@ -44,12 +44,11 @@ for (let i = 0; i < statsValue.length; i++) {
   else statsNode.innerHTML += renderStatisticText(cheap);
 }
 
-const renderMenu = (name, price, status) => {
-  return `<div>
+const renderMenu = (name, price, status) =>
+  `<div>
     <p>${name} -- Rp ${Number(price).toLocaleString("id-ID")},00</p>
     <p class="menu-status">${status}</p>
   </div>`;
-};
 
 for (const menuList of menu) {
   const { name, price, status } = menuList;
@@ -66,11 +65,13 @@ for (const menuList of menu) {
   );
 }
 
+/*
 const theChildren = document.querySelector(".menu-list").children;
 
 for (let i = 0; i < theChildren.length; i++) {
   console.log(theChildren[i].innerHTML);
 }
+*/
 
 const menuStatus = document.querySelectorAll(".menu-status");
 
