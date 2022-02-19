@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fce7f3;
+  font-family: "Roboto Serif", sans-serif;
+  box-sizing: border-box;
+}
+
+div header {
+  margin-bottom: 5vh;
+}
+
+.container {
+  margin: 0 25vh;
+  text-align: center;
+}
+
+.container h3 {
+  text-align: left;
+  font-weight: 100;
+}
+
+/* STATISTIC OVERALL */
+
+.stats ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+
+.stats ul li {
+  padding: 2vh 0 3vh 2vh;
+  font-size: 13px;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 7px;
+  height: 7vh;
+  width: 27%;
+  /* border: 1px solid black; */
+}
+
+.stats ul li span {
+  /* border: 1px solid black; */
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* MENU LIST */
+
+.menu {
+  padding: 0 30px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+.menu h4 {
+  padding-top: 30px;
+  font-weight: 100;
+}
+
+.menu-list div {
+  margin: 0;
+  padding: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list p {
+  vertical-align: center;
+  padding: 15px 0;
+}
+
+.menu-status {
+  font-weight: 500;
+  border-radius: 7px;
+  padding: 15px !important;
+}
+
+.expensive-color {
+  background-color: #fce7f3;
+  color: #ec4899;
+}
+
+.standard-color {
+  background-color: #cffafe;
+  color: #06b6d4;
+}
+
+.cheap-color {
+  background-color: #ecfccb;
+  color: #84cc16;
+}
